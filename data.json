@@ -1,0 +1,827 @@
+[
+    {
+        "moneysum": 1000,
+        "question": "Hvad er Neurodiversitet?",
+        "answers": {
+            "a": "En lidelse i nervesystemet",
+            "b": "En betegnelse for variationen i menneskers hjerner og mentale funktioner",
+            "c": "En type kosttilskud",
+            "d": "En metode til terapi"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvad dækker begrebet neurodiversitet over?",
+        "answers": {
+            "a": "Variationen i menneskers hjerner og mentale funktioner",
+            "b": "Kun autismespektrumforstyrrelser",
+            "c": "Mental sygdom",
+            "d": "Kun ADHD"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilket af følgende er et eksempel på en neurodivergent tilstand?",
+        "answers": {
+            "a": "Diabetes",
+            "b": "Gigt",
+            "c": "Autisme",
+            "d": "Højt blodtryk"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvad er formålet med neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "At kurere neurodivergente tilstande",
+            "b": "At fremme accept og forståelse af forskellige neurale profiler",
+            "c": "At finde medicinske behandlinger for neurodivergente",
+            "d": "At isolere neurodivergente individer"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilket af følgende begreber er relateret til neurodiversitet?",
+        "answers": {
+            "a": "Neurokirurgi",
+            "b": "Neurotransmitter",
+            "c": "Neurologisk forskning",
+            "d": "Neurotypisk"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilket årti blev begrebet neurodiversitet først brugt?",
+        "answers": {
+            "a": "1970'erne",
+            "b": "1980'erne",
+            "c": "1990'erne",
+            "d": "2000'erne"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilken af følgende personer er kendt for at være en advokat for neurodiversitet?",
+        "answers": {
+            "a": "Stephen Hawking",
+            "b": "Jane Goodall",
+            "c": "Carl Sagan",
+            "d": "Temple Grandin"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvad betyder det at være neurodivergent?",
+        "answers": {
+            "a": "At have en anden måde at lære på",
+            "b": "At have en fysisk handicap",
+            "c": "At have en høj IQ",
+            "d": "At have problemer med synet"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilket begreb bruges til at beskrive personer, der falder uden for de neurotypiske normer?",
+        "answers": {
+            "a": "Neurotypisk",
+            "b": "Neurodivergent",
+            "c": "Neurologisk",
+            "d": "Neurotransmitter"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvad er en almindelig misforståelse om neurodiversitet?",
+        "answers": {
+            "a": "At det kun gælder autisme",
+            "b": "At det kun gælder børn",
+            "c": "At det kun gælder kognitive evner",
+            "d": "At det kun gælder mentale sygdomme"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilken amerikansk lov er kendt for at fremme rettighederne for neurodivergente individer?",
+        "answers": {
+            "a": "Civil Rights Act",
+            "b": "Social Security Act",
+            "c": "Americans with Disabilities Act",
+            "d": "Medicare Act"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilket af følgende er en central tanke i neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "At kurere alle mentale lidelser",
+            "b": "At diagnosticere flere mennesker",
+            "c": "At reducere forskning i neuroforskning",
+            "d": "At anerkende og værdsætte neurale variationer"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilket land var pioner i at anerkende neurodiversitet som en vigtig social bevægelse i 1990'erne?",
+        "answers": {
+            "a": "Storbritannien",
+            "b": "Australien",
+            "c": "USA",
+            "d": "Canada"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvad er formålet med at fremme neurodiversitet i uddannelsessystemet?",
+        "answers": {
+            "a": "At få alle børn til at lære på samme måde",
+            "b": "At reducere ressourcer til specialundervisning",
+            "c": "At tilpasse undervisningen til forskellige læringsstile og behov",
+            "d": "At ensrette alle elevers adfærd"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilket af følgende er en tilstand, der ofte diskuteres inden for neurodiversitet?",
+        "answers": {
+            "a": "Allergi",
+            "b": "Astma",
+            "c": "Kognitiv dissonans",
+            "d": "Bipolar lidelse"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilket af følgende er en almindelig karakteristik ved autisme?",
+        "answers": {
+            "a": "Øget fysisk styrke",
+            "b": "Vanskeligheder med social interaktion",
+            "c": "Bedre syn",
+            "d": "Hurtigere refleksion"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvad står forkortelsen ADHD for?",
+        "answers": {
+            "a": "Attention Deficit Hyperactivity Disorder",
+            "b": "Autisme og hyperaktivitetsforstyrrelse",
+            "c": "Automatisk diagnosticeret hyperaktivitet",
+            "d": "Alle de ovenstående"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilket område af hjernen menes ofte at være påvirket af ADHD?",
+        "answers": {
+            "a": "Cerebellum",
+            "b": "Hypothalamus",
+            "c": "Prefrontal cortex",
+            "d": "Medulla oblongata"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilken form for terapi er ofte brugt til at hjælpe personer med autisme?",
+        "answers": {
+            "a": "Kognitiv adfærdsterapi",
+            "b": "Fysioterapi",
+            "c": "Ernæringsterapi",
+            "d": "Kirurgi"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilket symptom er ikke typisk for ADHD?",
+        "answers": {
+            "a": "Uopmærksomhed",
+            "b": "Hyperaktivitet",
+            "c": "Impulsivitet",
+            "d": "Kronisk smerte"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket symptom er typisk for både autisme og ADHD?",
+        "answers": {
+            "a": "Fysisk smerte",
+            "b": "Hyperfokus",
+            "c": "Synsproblemer",
+            "d": "Nedsat motorik"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket af følgende strategier er ofte anbefalet for børn med ADHD i skolen?",
+        "answers": {
+            "a": "Struktureret dagsplan",
+            "b": "Standardiserede tests",
+            "c": "Fri leg hele dagen",
+            "d": "Ingen specielle tilpasninger"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket af følgende beskriver et fælles træk ved autisme og ADHD?",
+        "answers": {
+            "a": "Øget fysisk styrke",
+            "b": "Hurtigere reflekser",
+            "c": "Sensitivitet over for sensoriske stimuli",
+            "d": "Forbedret lugtesans"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket køn er oftest underdiagnosticeret med ADHD?",
+        "answers": {
+            "a": "Kvinder",
+            "b": "Mænd",
+            "c": "Ingen forskel",
+            "d": "Begge køn lige meget"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilken behandlingsform er almindelig for børn med ADHD?",
+        "answers": {
+            "a": "Massage",
+            "b": "Kosttilskud",
+            "c": "Kirurgi",
+            "d": "Medicinering"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilket symptom er ikke typisk for autisme?",
+        "answers": {
+            "a": "Manglende øjenkontakt",
+            "b": "Fysisk smerte",
+            "c": "Gentagne bevægelser",
+            "d": "Vanskeligheder med social interaktion"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilken af følgende er ikke en almindelig behandlingsform for ADHD?",
+        "answers": {
+            "a": "Medicinering",
+            "b": "Kognitiv adfærdsterapi",
+            "c": "Kirurgi",
+            "d": "Strukturerede daglige rutiner"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvad er et af hovedformålene med neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "At kurere neurologiske lidelser",
+            "b": "At fremme accept og forståelse af forskellige neurale profiler",
+            "c": "At øge lægelig intervention",
+            "d": "At reducere forskning inden for neurovidenskab"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilket af følgende er ikke et symptom på ADHD?",
+        "answers": {
+            "a": "Uopmærksomhed",
+            "b": "Hyperaktivitet",
+            "c": "Impulsivitet",
+            "d": "Nedsat hørelse"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilken metode bruges ofte til at diagnosticere ADHD hos børn?",
+        "answers": {
+            "a": "Blodprøver",
+            "b": "MRI-scanning",
+            "c": "Observationsstudier og spørgeskemaer",
+            "d": "Genetiske tests"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvad er et fælles træk ved hyperfokus i både autisme og ADHD?",
+        "answers": {
+            "a": "Intens koncentration på specifikke interesser",
+            "b": "Øget koncentration på interesseløse opgaver",
+            "c": "Manglende evne til at koncentrere sig",
+            "d": "Hurtig skift mellem forskellige opgaver"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilken type terapi er almindelig for børn med autisme for at forbedre kommunikation?",
+        "answers": {
+            "a": "Fysioterapi",
+            "b": "Ernæringsterapi",
+            "c": "Akupunktur",
+            "d": "Taleterapi"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilken af følgende er et symptom, der ofte ses hos både autistiske og ADHD-individer?",
+        "answers": {
+            "a": "Overdreven træthed",
+            "b": "Manglende evne til at lære nye ting",
+            "c": "Impulsiv adfærd",
+            "d": "Øget fysisk styrke"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilket begreb beskriver tilstande som autisme og ADHD inden for rammerne af neurodiversitet?",
+        "answers": {
+            "a": "Neurale sygdomme",
+            "b": "Neurale anomalier",
+            "c": "Neurale variationer",
+            "d": "Neurale defekter"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilket af følgende er en almindelig misforståelse om ADHD?",
+        "answers": {
+            "a": "Det påvirker kun børn",
+            "b": "Det er en kronisk tilstand",
+            "c": "Medicin kan hjælpe med symptomerne",
+            "d": "Det påvirker både børn og voksne"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilket symptom er ofte forbundet med både autisme og ADHD?",
+        "answers": {
+            "a": "Øget appetit",
+            "b": "Sensitivitet over for lys og lyd",
+            "c": "Langsom læsehastighed",
+            "d": "Bedre motoriske færdigheder"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilken type undervisningstilpasning kan være gavnlig for børn med ADHD?",
+        "answers": {
+            "a": "Flere skriftlige tests",
+            "b": "Større klassestørrelser",
+            "c": "Mindre klasselokaler",
+            "d": "Regelmæssige pauser og fysisk aktivitet"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilket af følgende beskriver en fordel ved at anerkende neurodiversitet?",
+        "answers": {
+            "a": "Bedre forståelse og accept af forskellige hjerner",
+            "b": "Øget standardisering af adfærd",
+            "c": "Færre krav til undervisere",
+            "d": "Mindre fokus på individuelt tilpasset undervisning"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvad er en almindelig misforståelse om autisme?",
+        "answers": {
+            "a": "At det kan helbredes med medicin",
+            "b": "At det kun påvirker sociale evner",
+            "c": "At det kun påvirker børn",
+            "d": "At alle autistiske individer har lav intelligens"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilken af følgende metoder anvendes ofte i behandlingen af ADHD?",
+        "answers": {
+            "a": "Meditationsøvelser",
+            "b": "Kognitiv adfærdsterapi",
+            "c": "Homøopati",
+            "d": "Magnetisk resonans terapi"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilket af følgende symptomer er typisk for både autisme og ADHD?",
+        "answers": {
+            "a": "Øget fysisk aktivitet",
+            "b": "Manglende interesse i detaljer",
+            "c": "Gentagne adfærdsmønstre",
+            "d": "Forbedret motorisk koordinering"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilken kendt autistisk person har revolutioneret dyrevelfærd?",
+        "answers": {
+            "a": "Elon Musk",
+            "b": "Temple Grandin",
+            "c": "Bill Gates",
+            "d": "Stephen Hawking"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvad er formålet med anvendelsen af struktur og rutiner for børn med ADHD?",
+        "answers": {
+            "a": "At skabe mere tid til leg",
+            "b": "At reducere fysisk aktivitet",
+            "c": "At øge sociale færdigheder",
+            "d": "At reducere angst og forbedre koncentration"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilket værktøj bruges ofte til at hjælpe autistiske børn med kommunikation?",
+        "answers": {
+            "a": "Augmentative and Alternative Communication (AAC) enheder",
+            "b": "VR-briller",
+            "c": "Høreværn",
+            "d": "Stemmeoptagere"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilken af følgende er en misforståelse om ADHD?",
+        "answers": {
+            "a": "Det er en reel neurologisk tilstand",
+            "b": "Det kan behandles med medicin",
+            "c": "Det er forårsaget af dårlig opdragelse",
+            "d": "Det påvirker både børn og voksne"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilket af følgende er ikke en anerkendt behandling for ADHD?",
+        "answers": {
+            "a": "Adfærdsterapi",
+            "b": "Fysisk aktivitet",
+            "c": "Meditation og mindfulness",
+            "d": "Biologisk feedback"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilken kendt personlighed er kendt for at være advokat for neurodiversitet?",
+        "answers": {
+            "a": "Susan Boyle",
+            "b": "Emma Watson",
+            "c": "Daniel Radcliffe",
+            "d": "J.K. Rowling"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvad er en almindelig strategi til at støtte autistiske individer i sociale situationer?",
+        "answers": {
+            "a": "Medikamentel behandling",
+            "b": "Brug af visuelle hjælpemidler",
+            "c": "Nedsat social interaktion",
+            "d": "Fysisk træning"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilken betegnelse beskriver manglen på anerkendelse af neurodiversitet i samfundet?",
+        "answers": {
+            "a": "Neurofordom",
+            "b": "Neuroregression",
+            "c": "Neurodiskrimination",
+            "d": "Neuroisolering"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilken del af hjernen er ofte forbundet med de udfordringer, som personer med ADHD oplever?",
+        "answers": {
+            "a": "Frontallappen",
+            "b": "Occipitallappen",
+            "c": "Parietallappen",
+            "d": "Temporallappen"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvilken af ​​følgende tilstande falder inden for begrebet neurodiversitet?",
+        "answers": {
+            "a": "Type 1 diabetes",
+            "b": "Parkinsons sygdom",
+            "c": "Tourette syndrom",
+            "d": "Cøliaki"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvad er en typisk udfordring for personer med ADHD i en skoleindstilling?",
+        "answers": {
+            "a": "At høre læreren",
+            "b": "At sidde stille i længere perioder",
+            "c": "At se tavlen klart",
+            "d": "At kommunikere med klassekammerater"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvem betragtes som en vigtig fortaler for neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "Sigmund Freud",
+            "b": "Jean Piaget",
+            "c": "Carl Jung",
+            "d": "Judy Singer"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvilket af følgende er ikke en kendt strategi til støtte for autistiske individer?",
+        "answers": {
+            "a": "Øget social isolation",
+            "b": "Social historier",
+            "c": "Brugen af rutiner og struktur",
+            "d": "Anvendelse af visuelle hjælpemidler"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvilket begreb beskriver tendensen til gentagne handlinger hos autistiske individer?",
+        "answers": {
+            "a": "Repetition",
+            "b": "Stereotypi",
+            "c": "Mimikry",
+            "d": "Perseveration"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilket af følgende er ikke et symptom på autisme?",
+        "answers": {
+            "a": "Gentagne bevægelser",
+            "b": "Vanskeligheder med social interaktion",
+            "c": "Sensitivitet over for sensoriske stimuli",
+            "d": "Overdreven fysisk aktivitet"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilken terapeutisk tilgang anvendes ofte til børn med autisme for at forbedre deres sociale færdigheder?",
+        "answers": {
+            "a": "Fysioterapi",
+            "b": "Kunstterapi",
+            "c": "Taleterapi",
+            "d": "Spilbaseret terapi"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvad er en almindelig misforståelse om autisme?",
+        "answers": {
+            "a": "At det altid ledsages af intellektuelle handicap",
+            "b": "At det kan helbredes med diæt",
+            "c": "At det kun rammer mænd",
+            "d": "At autistiske individer ikke kan føle empati"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilken type medicin bruges ofte til at behandle symptomerne på ADHD?",
+        "answers": {
+            "a": "Antibiotika",
+            "b": "Stimulantia",
+            "c": "Antidepressiva",
+            "d": "Beroligende midler"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilken neuropsykologisk test bruges ofte til at diagnosticere ADHD?",
+        "answers": {
+            "a": "Rorschach test",
+            "b": "IQ test",
+            "c": "Stroop test",
+            "d": "TOVA (Test of Variables of Attention)"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvilket af følgende symptomer er specifikt for autisme og ikke typisk for ADHD?",
+        "answers": {
+            "a": "Impulsivitet",
+            "b": "Vanskeligheder med social interaktion",
+            "c": "Hyperaktivitet",
+            "d": "Uopmærksomhed"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvem er grundlæggeren af teorien om \"Asperger syndrom\"?",
+        "answers": {
+            "a": "Leo Kanner",
+            "b": "Temple Grandin",
+            "c": "Hans Asperger",
+            "d": "Judy Singer"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvilken metode bruges ofte til at støtte ADHD-individer i at håndtere deres tid og opgaver?",
+        "answers": {
+            "a": "Tidsstyringsstrategier",
+            "b": "Kognitive forvrængninger",
+            "c": "Akupunktur",
+            "d": "Aromaterapi"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvad er formålet med anvendelsen af \"sociale historier\" i autismebehandling?",
+        "answers": {
+            "a": "At forbedre læsefærdigheder",
+            "b": "At øge fysisk aktivitet",
+            "c": "At reducere fysisk smerte",
+            "d": "At hjælpe med at forstå og navigere sociale situationer"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvilken af følgende er en almindelig co-forekommende tilstand med ADHD?",
+        "answers": {
+            "a": "Diabetes",
+            "b": "Allergi",
+            "c": "Angstlidelse",
+            "d": "Nyresygdom"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilket begreb beskriver udfordringen med sensorisk overbelastning hos autistiske individer?",
+        "answers": {
+            "a": "Hypersensitivitet",
+            "b": "Hypoaktivitet",
+            "c": "Hyperaktivering",
+            "d": "Hypersociabilitet"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilket redskab anvendes ofte til at vurdere sensoriske udfordringer hos autistiske børn?",
+        "answers": {
+            "a": "IQ test",
+            "b": "Sensorisk Profil",
+            "c": "Rorschach test",
+            "d": "EEG"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilken af følgende behandlinger er mest almindelig for ADHD?",
+        "answers": {
+            "a": "Kirurgi",
+            "b": "Ernæringsterapi",
+            "c": "Smertebehandling",
+            "d": "Stimulantia"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilket begreb beskriver den medfødte evne til at aflæse og forstå andres følelser?",
+        "answers": {
+            "a": "Empati",
+            "b": "Sympati",
+            "c": "Teori om sindet",
+            "d": "Emulering"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilken forsker udviklede en anerkendt skala til at vurdere autistiske træk hos børn?",
+        "answers": {
+            "a": "Carl Rogers",
+            "b": "Jean Piaget",
+            "c": "Simon Baron-Cohen",
+            "d": "Lev Vygotsky"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilket af følgende er en central komponent i neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "Behandling af neurodivergente tilstande",
+            "b": "Accept og værdsættelse af neurale forskelle",
+            "c": "Isolering af neurodivergente individer",
+            "d": "Medicinsk forskning i neurotypicitet"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilken af ​​følgende kendte personer har talt offentligt om deres ADHD-diagnose?",
+        "answers": {
+            "a": "Emma Watson",
+            "b": "Jennifer Aniston",
+            "c": "Tom Hanks",
+            "d": "Simone Biles"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvad er formålet med den neurodiversitetsvenlige praksis i arbejdspladsindstillinger?",
+        "answers": {
+            "a": "At øge mangfoldighed og inklusion",
+            "b": "At skabe en ensartet arbejdsstyrke",
+            "c": "At reducere behovet for specialiseret uddannelse",
+            "d": "At begrænse neurodivergente individer til specifikke job"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilket af ​​følgende værktøjer bruges ofte i skolemiljøer for at støtte elever med autisme?",
+        "answers": {
+            "a": "Virtuelle klasseværelser",
+            "b": "Standardiserede tests",
+            "c": "Adaptive teknologier",
+            "d": "Traditionsrige undervisningsmetoder"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvem skrev bogen \"The Autistic Brain\"?",
+        "answers": {
+            "a": "Susan Boyle",
+            "b": "Temple Grandin",
+            "c": "Dan Aykroyd",
+            "d": "Anthony Hopkins"
+        },
+        "correct_answer": "b"
+    }
+]

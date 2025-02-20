@@ -1,0 +1,60 @@
+Here's the game flow for "Who Wants to Be a Millionaire":
+
+Game Initialization:
+Load all questions from the database
+Group questions by prize money (1000 to 1,000,000)
+Randomly select one question for each prize level
+Initialize lifelines (50:50, Phone a Friend, Ask the Audience)
+
+Question Flow:
+Start with 1,000 DKK question (Level 1)
+Present question with 4 possible answers (A, B, C, D)
+Player can:
+Choose an answer
+Use a lifeline
+Quit and take current prize money
+Answer Outcomes:
+
+Correct Answer:
+Update prize money to current level
+If at checkpoint (5,000 or 50,000), update safe prize
+Move to next question
+
+Wrong Answer:
+Game Over
+Player receives last safe prize money
+If before first checkpoint, player receives nothing
+
+Prize Structure:
+Level 1: 1,000 DKK
+Level 2: 2,000 DKK
+Level 3: 3,000 DKK
+Level 4: 4,000 DKK
+Level 5: 5,000 DKK (First Checkpoint)
+Level 6: 8,000 DKK
+Level 7: 12,000 DKK
+Level 8: 20,000 DKK
+Level 9: 32,000 DKK
+Level 10: 50,000 DKK (Second Checkpoint)
+Level 11: 75,000 DKK
+Level 12: 125,000 DKK
+Level 13: 250,000 DKK
+Level 14: 500,000 DKK
+Level 15: 1,000,000 DKK
+
+Checkpoints:
+First Checkpoint (5,000 DKK):
+If player fails after this, they keep 5,000
+Second Checkpoint (50,000 DKK):
+If player fails after this, they keep 50,000
+
+Game End Conditions:
+Win: Complete all 15 questions correctly (1,000,000 DKK)
+Lose: Answer incorrectly (receive last checkpoint amount)
+Quit: Take current prize money and end game
+
+Lifelines (one-time use):
+50:50: Removes two incorrect answers
+Phone a Friend: 30 seconds to call for help
+Ask the Audience: Audience votes on correct answer
+This creates the classic tension of risk vs. reward, with players deciding whether to continue for higher prizes or take their current winnings.

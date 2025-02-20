@@ -60,8 +60,10 @@ interface GameState {
     currentPrize: number;
     safePrize: number;      // Last checkpoint reached (5000 or 50000)
 
+    answerCorrect?: boolean;
+
     audienceResults?: Record<string, number>;
-    
+
     phoneFriendResponse?: {
         answer: string;
         confidence: 'very sure' | 'pretty sure' | 'not sure';

@@ -1,8 +1,9 @@
 import { GameState, getInitialGameState, Level, PRIZE_LEVELS } from '@/types/gamestate';
 import { QuizQuestion } from '@/types/quiz';
+import { getQuizData } from '@/utils/quizHelper';
+
 
 type GameAction = 
-    | { type: 'START_GAME'; questions: QuizQuestion[] }
     | { type: 'ANSWER_QUESTION'; answer: 'a' | 'b' | 'c' | 'd' }
     | { type: 'USE_LIFELINE'; lifeline: keyof GameState['lifelines'] }
     | { type: 'QUIT_GAME' }
@@ -142,14 +143,15 @@ export class GameManager {
         this.onStateChange(this.state);
     }
 
+    public async newGame() {
+        await this.handleStartGame();
+    }
+
     /**
      * Handles game actions
      */
     public dispatch(action: GameAction) {
         switch (action.type) {
-            case 'START_GAME':
-                this.handleStartGame(action.questions);
-                break;
             case 'ANSWER_QUESTION':
                 this.handleAnswer(action.answer);
                 break;
@@ -168,9 +170,15 @@ export class GameManager {
     /**
      * Initializes a new game with randomly selected questions
      */
-    private handleStartGame(questions: QuizQuestion[]) {
+    private async handleStartGame() {
+        const { data, error } = await getQuizData();
+        if (error || !data) {
+            console.error('Failed to load questions:', error);
+            return;
+        }
+
         const initialState = getInitialGameState();
-        const selectedQuestions = this.organizeQuestions(questions);
+        const selectedQuestions = this.organizeQuestions(data);
         
         this.setState({
             ...initialState,
@@ -182,7 +190,7 @@ export class GameManager {
     /**
      * Processes the player's answer
      */
-    private handleAnswer(answer: string) {
+    private handleAnswer(answer: keyof GameState['activeAnswers']) {
         const { currentQuestion, level } = this.state;
         if (!currentQuestion || this.state.isGameOver) return;
 
@@ -196,20 +204,22 @@ export class GameManager {
             this.setState({
                 currentPrize,
                 safePrize: Math.max(this.state.safePrize, safePrize),
-                hasWon: level === 15
+                hasWon: level === 15,
+                answerCorrect: true
             });
 
             if (level === 15) {
                 // Player won the game
                 this.setState({ isGameOver: true });
             }
-
-            this.handleNextQuestion();
         } else {
             // Wrong answer - game over
             this.setState({
                 isGameOver: true,
-                currentPrize: this.state.safePrize
+                currentPrize: this.state.safePrize,
+                phoneFriendResponse: undefined,
+                audienceResults: undefined,
+                answerCorrect: false
             });
         }
     }
@@ -234,7 +244,8 @@ export class GameManager {
                 d: true
             },
             audienceResults: undefined,
-            phoneFriendResponse: undefined
+            phoneFriendResponse: undefined,
+            answerCorrect: undefined
         });
     }
 
@@ -392,11 +403,6 @@ export class GameManager {
             }
         });
 
-        // Calculate wrong answer probability distribution
-        const wrongProbability = (1 - correctProbability) / (activeAnswers.length - 1);
-
-        console.log(wrongProbability);
-
         // Generate 100 votes
         for (let i = 0; i < totalVotes; i++) {
             const random = Math.random();
@@ -510,24 +516,3 @@ export class GameManager {
         return this.state;
     }
 }
-
-/**
- * Example usage:
- * 
- * const gameManager = new GameManager((state) => {
- *     // Update UI based on new state
- *     console.log('Game state updated:', state);
- * });
- * 
- * // Start new game
- * gameManager.dispatch({ type: 'START_GAME', questions: quizQuestions });
- * 
- * // Answer question
- * gameManager.dispatch({ type: 'ANSWER_QUESTION', answer: 'a' });
- * 
- * // Use lifeline
- * gameManager.dispatch({ type: 'USE_LIFELINE', lifeline: 'fiftyFifty' });
- * 
- * // Quit game
- * gameManager.dispatch({ type: 'QUIT_GAME' });
- */ 

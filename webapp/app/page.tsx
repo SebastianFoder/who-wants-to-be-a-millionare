@@ -3,29 +3,24 @@
 import { useEffect, useState } from 'react';
 import { GameManager } from '@/utils/gameManager';
 import { GameState } from '@/types/gamestate';
-import { getQuizData } from '@/utils/quizHelper';
+import GameOver from '@/app/controls/gameover';
+import Lifelines from '@/app/controls/lifelines';
 
 export default function Home() {
     const [gameState, setGameState] = useState<GameState | null>(null);
     const [gameManager, setGameManager] = useState<GameManager | null>(null);
+    const [selectedAnswer, setSelectedAnswer] = useState<keyof GameState['activeAnswers'] | null>(null);
 
     // Initialize game manager and load questions
     useEffect(() => {
         const initGame = async () => {
-            // Get quiz data
-            const { data, error } = await getQuizData();
-            if (error || !data) {
-                console.error('Failed to load questions:', error);
-                return;
-            }
-
             // Create game manager instance
             const manager = new GameManager((newState) => {
                 setGameState(newState);
             });
 
             // Start new game
-            manager.dispatch({ type: 'START_GAME', questions: data });
+            await manager.newGame();
             setGameManager(manager);
         };
 
@@ -33,20 +28,26 @@ export default function Home() {
     }, []);
 
     // Example handlers for game actions
-    const handleAnswer = (answer: 'a' | 'b' | 'c' | 'd') => {
-        gameManager?.dispatch({ type: 'ANSWER_QUESTION', answer });
+    const handleAnswer = () => {
+        if (!selectedAnswer) return;
+        gameManager?.dispatch({ type: 'ANSWER_QUESTION', answer: selectedAnswer });
     };
 
     const handleLifeline = (lifeline: keyof GameState['lifelines']) => {
         gameManager?.dispatch({ type: 'USE_LIFELINE', lifeline });
     };
 
-    const handleQuit = () => {
+    const handleQuit = async () => {
         gameManager?.dispatch({ type: 'QUIT_GAME' });
     };
 
     const handleNextQuestion = () => {
         gameManager?.dispatch({ type: 'NEXT_QUESTION' });
+        setSelectedAnswer(null);
+    };
+
+    const handleNewGame = async () => {
+        await gameManager?.newGame();
     };
 
     if (!gameState) return <div>Loading...</div>;
@@ -72,8 +73,17 @@ export default function Home() {
                             gameState.activeAnswers[key as keyof GameState['activeAnswers']] && (
                                 <button
                                     key={key}
-                                    onClick={() => handleAnswer(key as keyof GameState['activeAnswers'])}
-                                    className="p-4 border rounded hover:bg-blue-500 hover:text-white"
+                                    onClick={() => setSelectedAnswer(key as keyof GameState['activeAnswers'])}
+                                    className={`p-4 border rounded transition-colors duration-300 ${
+                                        selectedAnswer === key 
+                                            ? gameState.answerCorrect === undefined
+                                                ? 'bg-blue-500 text-white'  // Selected but not answered
+                                                : gameState.answerCorrect
+                                                    ? 'bg-green-500 text-white animate-pulse'  // Correct answer
+                                                    : 'bg-red-500 text-white'  // Wrong answer
+                                            : 'hover:bg-blue-500 hover:text-white'  // Not selected
+                                    }`}
+                                    disabled={gameState.answerCorrect !== undefined}
                                 >
                                     {key.toUpperCase()}: {value}
                                 </button>
@@ -83,21 +93,8 @@ export default function Home() {
                 </div>
             )}
 
-            {/* Lifelines */}
-            <div className="flex gap-4 mb-8">
-                {Object.entries(gameState.lifelines).map(([lifeline, isAvailable]) => (
-                    <button
-                        key={lifeline}
-                        onClick={() => handleLifeline(lifeline as keyof GameState['lifelines'])}
-                        disabled={!isAvailable}
-                        className={`p-2 rounded ${
-                            isAvailable ? 'bg-blue-500 text-white' : 'bg-gray-300'
-                        }`}
-                    >
-                        {lifeline}
-                    </button>
-                ))}
-            </div>
+            <Lifelines gameState={gameState} handleLifeline={handleLifeline} />
+
 
             {/* Game Controls */}
             <div className="flex gap-4">
@@ -108,46 +105,31 @@ export default function Home() {
                     Quit Game
                 </button>
                 {gameState.currentQuestion && (
-                    <button
+                    gameState.answerCorrect && (
+                      <button
                         onClick={handleNextQuestion}
                         className="p-2 bg-green-500 text-white rounded"
-                    >
+                      >
                         Next Question
-                    </button>
+                      </button>
+                    ) || (
+                      <button
+                        onClick={handleAnswer}
+                        className="p-2 bg-green-500 text-white rounded"
+                        disabled={!selectedAnswer}
+                      >
+                          Final Answer
+                      </button>
+                    )
                 )}
+                
             </div>
 
-            {/* Lifeline Results */}
-            {gameState.audienceResults && (
-                <div className="mt-4">
-                    <h3>Audience Results:</h3>
-                    {Object.entries(gameState.audienceResults).map(([answer, percentage]) => (
-                        <div key={answer}>
-                            {answer.toUpperCase()}: {percentage}%
-                        </div>
-                    ))}
-                </div>
-            )}
-
-            {gameState.phoneFriendResponse && (
-                <div className="mt-4">
-                    <h3>Friend says:</h3>
-                    <p>{gameState.phoneFriendResponse.explanation}</p>
-                    <p>Answer: {gameState.phoneFriendResponse.answer.toUpperCase()}</p>
-                    <p>Confidence: {gameState.phoneFriendResponse.confidence}</p>
-                </div>
-            )}
+            
 
             {/* Game Over State */}
             {gameState.isGameOver && (
-                <div className="mt-8 text-center">
-                    <h2 className="text-3xl mb-4">
-                        {gameState.hasWon ? 'Congratulations!' : 'Game Over'}
-                    </h2>
-                    <p className="text-xl">
-                        Final Prize: {gameState.currentPrize} DKK
-                    </p>
-                </div>
+                <GameOver gameState={gameState} handleNewGame={handleNewGame} />  
             )}
         </div>
     );

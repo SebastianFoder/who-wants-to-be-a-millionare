@@ -5,6 +5,10 @@ import { GameManager } from '@/utils/gameManager';
 import { GameState } from '@/types/gamestate';
 import GameOver from '@/app/controls/gameover';
 import Lifelines from '@/app/controls/lifelines';
+import LifelineResults from '@/app/controls/lifelineResults';
+import QuestionBox from '@/app/controls/questionBox';
+import GameControls from '@/app/controls/gameControls';
+import PrizeDisplay from '@/app/components/prizeDisplay';
 
 export default function Home() {
     const [gameState, setGameState] = useState<GameState | null>(null);
@@ -48,6 +52,7 @@ export default function Home() {
 
     const handleNewGame = async () => {
         await gameManager?.newGame();
+        setSelectedAnswer(null);
     };
 
     if (!gameState) return <div>Loading...</div>;
@@ -57,79 +62,37 @@ export default function Home() {
             <h1 className="text-4xl font-bold mb-8">Hvem vil være millionær?</h1>
             
             {/* Current Prize */}
-            <div className="mb-4">
-                Current Prize: {gameState.currentPrize} DKK
-                {gameState.safePrize > 0 && ` (Safe: ${gameState.safePrize} DKK)`}
-            </div>
+            <PrizeDisplay 
+                gameState={gameState} />
 
             {/* Question */}
             {gameState.currentQuestion && (
-                <div className="mb-8">
-                    <h2 className="text-2xl mb-4">{gameState.currentQuestion.question}</h2>
-                    
-                    {/* Answer Buttons */}
-                    <div className="grid grid-cols-2 gap-4">
-                        {Object.entries(gameState.currentQuestion.answers).map(([key, value]) => (
-                            gameState.activeAnswers[key as keyof GameState['activeAnswers']] && (
-                                <button
-                                    key={key}
-                                    onClick={() => setSelectedAnswer(key as keyof GameState['activeAnswers'])}
-                                    className={`p-4 border rounded transition-colors duration-300 ${
-                                        selectedAnswer === key 
-                                            ? gameState.answerCorrect === undefined
-                                                ? 'bg-blue-500 text-white'  // Selected but not answered
-                                                : gameState.answerCorrect
-                                                    ? 'bg-green-500 text-white animate-pulse'  // Correct answer
-                                                    : 'bg-red-500 text-white'  // Wrong answer
-                                            : 'hover:bg-blue-500 hover:text-white'  // Not selected
-                                    }`}
-                                    disabled={gameState.answerCorrect !== undefined}
-                                >
-                                    {key.toUpperCase()}: {value}
-                                </button>
-                            )
-                        ))}
-                    </div>
-                </div>
+                <QuestionBox
+                    gameState={gameState}
+                    setSelectedAnswer={setSelectedAnswer}
+                    selectedAnswer={selectedAnswer}/>
             )}
 
-            <Lifelines gameState={gameState} handleLifeline={handleLifeline} />
+            <Lifelines
+                gameState={gameState}
+                handleLifeline={handleLifeline}/>
 
+            <GameControls
+                gameState={gameState}
+                handleQuit={handleQuit}
+                handleNextQuestion={handleNextQuestion}
+                handleAnswer={handleAnswer}
+                selectedAnswer={selectedAnswer}/>
 
-            {/* Game Controls */}
-            <div className="flex gap-4">
-                <button
-                    onClick={handleQuit}
-                    className="p-2 bg-red-500 text-white rounded"
-                >
-                    Quit Game
-                </button>
-                {gameState.currentQuestion && (
-                    gameState.answerCorrect && (
-                      <button
-                        onClick={handleNextQuestion}
-                        className="p-2 bg-green-500 text-white rounded"
-                      >
-                        Next Question
-                      </button>
-                    ) || (
-                      <button
-                        onClick={handleAnswer}
-                        className="p-2 bg-green-500 text-white rounded"
-                        disabled={!selectedAnswer}
-                      >
-                          Final Answer
-                      </button>
-                    )
-                )}
-                
-            </div>
-
+            <LifelineResults
+                gameState={gameState}/>
             
 
             {/* Game Over State */}
             {gameState.isGameOver && (
-                <GameOver gameState={gameState} handleNewGame={handleNewGame} />  
+                <GameOver 
+                    gameState={gameState}
+                    handleNewGame={handleNewGame}/>  
             )}
         </div>
     );

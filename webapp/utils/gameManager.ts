@@ -183,7 +183,7 @@ export class GameManager {
         this.setState({
             ...initialState,
             questions: selectedQuestions,
-            currentQuestion: selectedQuestions[0]
+            currentQuestion: selectedQuestions[0],
         });
     }
 

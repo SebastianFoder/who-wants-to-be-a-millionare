@@ -109,6 +109,9 @@ function getInitialGameState(): GameState {
             askTheAudience: true
         },
         level: 1,
+        audienceResults: undefined,
+        phoneFriendResponse: undefined,
+        answerCorrect: undefined,
         getPrizeMoney,
         getSafePrizeMoney
     }

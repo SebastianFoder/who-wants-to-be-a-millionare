@@ -38,7 +38,7 @@ export type Level = keyof typeof PRIZE_LEVELS;
 /**
  * Checkpoint levels
  */
-export const CHECKPOINTS: Level[] = [5, 10];
+export const CHECKPOINTS: Level[] = [5, 10, 15];
 
 /**
  * Current state of the game

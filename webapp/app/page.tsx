@@ -9,7 +9,7 @@ import LifelineResults from '@/app/controls/lifelineResults';
 import QuestionBox from '@/app/controls/questionBox';
 import GameControls from '@/app/controls/gameControls';
 import PrizeDisplay from '@/app/components/prizeDisplay';
-
+import AnswersBox from '@/app/controls/answersBox';
 export default function Home() {
     const [gameState, setGameState] = useState<GameState | null>(null);
     const [gameManager, setGameManager] = useState<GameManager | null>(null);
@@ -58,42 +58,55 @@ export default function Home() {
     if (!gameState) return <div>Loading...</div>;
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen p-4">
+        <div className="flex flex-col items-center justify-center min-h-screen p-4 container mx-auto">
             <h1 className="text-4xl font-bold mb-8">Hvem vil være millionær?</h1>
-            
-            {/* Current Prize */}
-            <PrizeDisplay 
-                gameState={gameState} />
+            <div className="flex flex-row gap-4">
+                <div className="w-1/4 flex flex-col gap-1">
+                    <Lifelines
+                        gameState={gameState}
+                        handleLifeline={handleLifeline}/>
+                    <LifelineResults
+                        gameState={gameState}/>
+                </div>
+                <div className="w-2/4 grid grid-cols-1 gap-1">
+                    {/* Question */}
+                    {gameState.currentQuestion && (
+                    <div className="mb-8 flex flex-col gap-6">
+                        <QuestionBox
+                            gameState={gameState}/>
+                        <AnswersBox
+                            gameState={gameState}
+                            selectedAnswer={selectedAnswer}
+                            setSelectedAnswer={setSelectedAnswer}/>
+                    </div>
+                    )}
 
-            {/* Question */}
-            {gameState.currentQuestion && (
-                <QuestionBox
-                    gameState={gameState}
-                    setSelectedAnswer={setSelectedAnswer}
-                    selectedAnswer={selectedAnswer}/>
-            )}
+                    
 
-            <Lifelines
-                gameState={gameState}
-                handleLifeline={handleLifeline}/>
+                    <GameControls
+                        gameState={gameState}
+                        handleQuit={handleQuit}
+                        handleNextQuestion={handleNextQuestion}
+                        handleAnswer={handleAnswer}
+                        selectedAnswer={selectedAnswer}/>
 
-            <GameControls
-                gameState={gameState}
-                handleQuit={handleQuit}
-                handleNextQuestion={handleNextQuestion}
-                handleAnswer={handleAnswer}
-                selectedAnswer={selectedAnswer}/>
+                    
+                    
 
-            <LifelineResults
-                gameState={gameState}/>
-            
+                    {/* Game Over State */}
+                    {gameState.isGameOver && (
+                        <GameOver 
+                            gameState={gameState}
+                            handleNewGame={handleNewGame}/>  
+                    )}
+                </div>
+                <div className="w-1/4 grid grid-cols-1 gap-1">
+                    {/* Current Prize */}
 
-            {/* Game Over State */}
-            {gameState.isGameOver && (
-                <GameOver 
-                    gameState={gameState}
-                    handleNewGame={handleNewGame}/>  
-            )}
+                    <PrizeDisplay 
+                        gameState={gameState} />
+                </div>
+            </div>
         </div>
     );
 }

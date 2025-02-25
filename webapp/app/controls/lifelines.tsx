@@ -1,5 +1,5 @@
 import { GameState } from '@/types/gamestate';
-
+import Image from 'next/image';
 interface LifelineResultsProps {
     gameState: GameState;
     handleLifeline: (lifeline: keyof GameState['lifelines']) => void;
@@ -7,17 +7,22 @@ interface LifelineResultsProps {
 
 export default function Lifelines({ gameState, handleLifeline }: LifelineResultsProps) {
     return (
-        <div className="flex gap-4 mb-8">
+        <div className="flex justify-center items-center gap-2 mb-8">
             {Object.entries(gameState.lifelines).map(([lifeline, isAvailable]) => (
                 <button
                     key={lifeline}
                     onClick={() => handleLifeline(lifeline as keyof GameState['lifelines'])}
                     disabled={!isAvailable}
-                    className={`p-2 rounded ${
-                        isAvailable ? 'bg-blue-500 text-white' : 'bg-gray-300'
+                    className={`rounded p-1 ${
+                        isAvailable ? '' : 'opacity-50'
                     }`}
                 >
-                    {lifeline}
+                    <Image
+                        src={`/img/${lifeline}.png`}
+                        alt={lifeline}
+                        width={120}
+                        height={60}
+                    />
                 </button>
             ))}
         </div>

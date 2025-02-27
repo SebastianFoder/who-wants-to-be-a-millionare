@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
@@ -36,10 +36,13 @@ export const metadata: Metadata = {
       },
     ],
   },
-  themeColor: "#1e183a",
   other: {
     "msapplication-TileColor": "#1e183a",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1e183a",
 };
 
 export default function RootLayout({

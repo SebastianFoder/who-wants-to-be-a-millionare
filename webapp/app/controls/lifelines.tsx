@@ -1,5 +1,6 @@
 import { GameState } from '@/types/gamestate';
 import Image from 'next/image';
+
 interface LifelineResultsProps {
     gameState: GameState;
     handleLifeline: (lifeline: keyof GameState['lifelines']) => void;
@@ -13,9 +14,13 @@ export default function Lifelines({ gameState, handleLifeline }: LifelineResults
                     key={lifeline}
                     onClick={() => handleLifeline(lifeline as keyof GameState['lifelines'])}
                     disabled={!isAvailable}
-                    className={`rounded p-1 ${
-                        isAvailable ? '' : 'opacity-50'
-                    }`}
+                    className={`
+                        rounded p-1 transition-all duration-200
+                        ${isAvailable 
+                            ? 'hover:scale-110 hover:shadow-lg active:scale-105' 
+                            : 'grayscale cursor-not-allowed'
+                        }
+                    `}
                 >
                     <Image
                         src={`/img/${lifeline}.png`}

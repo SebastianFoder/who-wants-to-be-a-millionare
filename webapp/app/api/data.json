@@ -1,6 +1,39 @@
 [
     {
         "moneysum": 1000,
+        "question": "Hvad står forkortelsen ADHD for?",
+        "answers": {
+            "a": "Autisme og Dysleksi Hjernedisorder",
+            "b": "Attention Deficit Hyperactivity Disorder",
+            "c": "Anerkendt Dysfunktionel Hjerne Differentiering",
+            "d": "Adaptiv Dynamisk Hyperaktiv Disorder"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken neurodivergent tilstand er primært forbundet med læsevanskeligheder?",
+        "answers": {
+            "a": "Autisme",
+            "b": "Tourette syndrom",
+            "c": "Dysleksi",
+            "d": "OCD"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken af følgende er et almindeligt kendetegn ved autisme?",
+        "answers": {
+            "a": "Forhøjet blodtryk",
+            "b": "Vanskeligheder med social kommunikation",
+            "c": "Forbedret nattesyn",
+            "d": "Lav intelligens"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
         "question": "Hvad er Neurodiversitet?",
         "answers": {
             "a": "En lidelse i nervesystemet",
@@ -53,6 +86,171 @@
             "d": "Neurotypisk"
         },
         "correct_answer": "d"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvad betyder det at være neurotypisk?",
+        "answers": {
+            "a": "At have en neurologisk tilstand som ADHD eller autisme",
+            "b": "At have en hjernefunktion, der betragtes som typisk i samfundet",
+            "c": "At være særligt intelligent",
+            "d": "At have en sjælden neurologisk lidelse"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken af følgende tilstande betragtes ofte som en del af neurodiversitet?",
+        "answers": {
+            "a": "Lungebetændelse",
+            "b": "ADHD",
+            "c": "Knoglebrud",
+            "d": "Influenza"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvordan adskiller neurodivergente personer sig ofte fra neurotypiske?",
+        "answers": {
+            "a": "De har en anderledes måde at tænke, lære og bearbejde information på",
+            "b": "De er altid mere intelligente end neurotypiske personer",
+            "c": "De har ingen sociale udfordringer",
+            "d": "De kan ikke lære nye ting"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken tilgang fremmer neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "At inkludere og anerkende neurodivergente personer i samfundet",
+            "b": "At forsøge at kurere neurodivergente tilstande",
+            "c": "At adskille neurodivergente personer fra samfundet",
+            "d": "At ignorere neurodiversitet som et begreb"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvordan kan samfundet støtte neurodivergente personer bedst?",
+        "answers": {
+            "a": "Ved at tilbyde fleksible arbejds- og læringsmiljøer",
+            "b": "Ved at kræve, at de tilpasser sig neurotypiske normer",
+            "c": "Ved at ignorere deres behov",
+            "d": "Ved at undgå at tale om neurodiversitet"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken af følgende udsagn er sandt om neurodiversitet?",
+        "answers": {
+            "a": "Det betyder, at alle mennesker har præcis den samme hjernefunktion",
+            "b": "Det anerkender, at mennesker har forskellige måder at tænke og lære på",
+            "c": "Det er en diagnose, som læger stiller",
+            "d": "Det betyder, at kun autisme er en accepteret neurologisk forskellighed"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken kendt person er ofte nævnt som et eksempel på neurodivergens?",
+        "answers": {
+            "a": "Albert Einstein",
+            "b": "Leonardo da Vinci",
+            "c": "Bill Gates",
+            "d": "Alle ovenstående"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvordan kan skoler støtte neurodivergente elever?",
+        "answers": {
+            "a": "Ved at tilpasse undervisningsmetoder til forskellige læringsstile",
+            "b": "Ved at kræve, at alle lærer på samme måde",
+            "c": "Ved at undgå at tilbyde ekstra hjælp eller støtte",
+            "d": "Ved kun at fokusere på neurotypiske elever"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken tilgang til neurodiversitet fremmer inklusion?",
+        "answers": {
+            "a": "At anerkende og værdsætte forskellige måder at tænke på",
+            "b": "At forsøge at ændre neurodivergente personer, så de bliver neurotypiske",
+            "c": "At undgå at tale om neurodiversitet",
+            "d": "At udelukke neurodivergente fra arbejdsmarkedet"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilket af følgende er en myte om neurodivergente personer?",
+        "answers": {
+            "a": "De kan have unikke styrker og talenter",
+            "b": "De har alle de samme udfordringer",
+            "c": "De kan drage fordel af støttende miljøer",
+            "d": "De kan være kreative og innovative"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken af følgende diagnoser regnes som neurodivergent?",
+        "answers": {
+            "a": "Depression",
+            "b": "ADHD",
+            "c": "Lungebetændelse",
+            "d": "Migræne"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilket af følgende er IKKE en del af neurodiversitet?",
+        "answers": {
+            "a": "Autisme",
+            "b": "Dysleksi",
+            "c": "Diabetes",
+            "d": "ADHD"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvad er en almindelig misforståelse om neurodivergente personer?",
+        "answers": {
+            "a": "At de alle har de samme udfordringer",
+            "b": "At de kan have forskellige styrker",
+            "c": "At de kan drage fordel af tilpassede læringsmiljøer",
+            "d": "At de kan bidrage positivt til samfundet"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvad kan være en fordel ved neurodivergens?",
+        "answers": {
+            "a": "Øget kreativitet og anderledes problemløsning",
+            "b": "Færre rettigheder i samfundet",
+            "c": "Manglende evne til at lære nye ting",
+            "d": "At det altid fører til akademisk succes"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 1000,
+        "question": "Hvilken faktor kan hjælpe med at skabe et mere inkluderende samfund for neurodivergente personer?",
+        "answers": {
+            "a": "Mere viden og forståelse om neurodiversitet",
+            "b": "At ignorere neurodivergentes behov",
+            "c": "At forvente, at alle tilpasser sig neurotypiske normer",
+            "d": "At udelukke neurodivergente fra arbejdspladser"
+        },
+        "correct_answer": "a"
     },
     {
         "moneysum": 2000,
@@ -110,6 +308,171 @@
         "correct_answer": "a"
     },
     {
+        "moneysum": 2000,
+        "question": "Hvem krediteres ofte for at have populariseret begrebet neurodiversitet?",
+        "answers": {
+            "a": "Judy Singer",
+            "b": "Sigmund Freud",
+            "c": "Charles Darwin",
+            "d": "B. F. Skinner"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilken af følgende tilstande er ikke anerkendt som en del af neurodiversitet?",
+        "answers": {
+            "a": "Autisme",
+            "b": "Dysleksi",
+            "c": "Astma",
+            "d": "ADHD"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilket formål har neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "At fremhæve og acceptere forskelle i hjernens funktion",
+            "b": "At finde en kur mod neurodivergente tilstande",
+            "c": "At klassificere alle neurologiske forskelle som sygdomme",
+            "d": "At opdele neurotypiske og neurodivergente personer i samfundet"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilken tilgang er mest i tråd med neurodiversitet?",
+        "answers": {
+            "a": "At ændre neurodivergente personer, så de passer ind i samfundets normer",
+            "b": "At acceptere og værdsætte forskellige måder at tænke og lære på",
+            "c": "At udelukke neurodivergente personer fra sociale sammenhænge",
+            "d": "At ignorere forskelle i neurologiske funktioner"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilket udsagn beskriver bedst neurodiversitetsparadigmet?",
+        "answers": {
+            "a": "Neurodivergente personer bør forsøge at blive neurotypiske",
+            "b": "Neurodiversitet er en naturlig og værdifuld del af den menneskelige variation",
+            "c": "Neurodiversitet er en sjælden og unormal tilstand",
+            "d": "Neurodiversitet handler kun om uddannelse"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilken videnskabelig disciplin beskæftiger sig med studiet af hjernens variationer og funktioner relateret til neurodiversitet?",
+        "answers": {
+            "a": "Neurologi",
+            "b": "Paleontologi",
+            "c": "Astrofysik",
+            "d": "Botanik"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilket af følgende eksempler viser en positiv tilgang til neurodiversitet på arbejdspladsen?",
+        "answers": {
+            "a": "At kræve, at alle medarbejdere arbejder og tænker på samme måde",
+            "b": "At tilbyde fleksible arbejdsformer og anerkende forskellige styrker",
+            "c": "At undgå at ansætte neurodivergente personer",
+            "d": "At give neurodivergente personer færre opgaver end deres kollegaer"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvordan kan teknologi hjælpe neurodivergente personer i hverdagen?",
+        "answers": {
+            "a": "Ved at tilbyde hjælpemidler som tekst-til-tale-software og planlægningsapps",
+            "b": "Ved at fjerne behovet for personlig interaktion",
+            "c": "Ved at gøre neurodivergente mere neurotypiske",
+            "d": "Ved at forhindre dem i at bruge digitale løsninger"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvad er en vigtig faktor for at skabe inkluderende uddannelsesmiljøer for neurodivergente elever?",
+        "answers": {
+            "a": "At tilbyde individualiseret læring og støtte",
+            "b": "At kræve, at alle elever lærer på samme måde",
+            "c": "At fjerne neurodivergente elever fra almindelige klasser",
+            "d": "At undgå at tilpasse undervisningen"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvordan kan samfundet generelt blive bedre til at forstå og støtte neurodivergente personer?",
+        "answers": {
+            "a": "Gennem oplysning, accept og tilpasning af systemer",
+            "b": "Ved at forvente, at neurodivergente tilpasser sig neurotypiske normer",
+            "c": "Ved at ignorere neurodiversitet",
+            "d": "Ved at begrænse neurodivergentes muligheder i uddannelse og arbejde"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilken af følgende betragtes som en fordel ved neurodiversitet i en arbejdspladssammenhæng?",
+        "answers": {
+            "a": "En mere ensartet tankegang blandt medarbejdere",
+            "b": "Øget kreativitet og alternative problemløsningsmetoder",
+            "c": "Færre behov for tilpasninger i arbejdsmiljøet",
+            "d": "Reduceret samarbejde mellem forskellige teams"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilket af følgende begreber beskriver en person, der ikke betragtes som neurodivergent?",
+        "answers": {
+            "a": "Neurotypisk",
+            "b": "Neurodivergent",
+            "c": "Neuroplastisk",
+            "d": "Neuroatypisk"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvilken international dag er dedikeret til at skabe opmærksomhed omkring autisme, en af de mest kendte neurodivergente tilstande?",
+        "answers": {
+            "a": "Verdens ADHD-dag",
+            "b": "Den Internationale Dag for Mentalt Helbred",
+            "c": "Verdens Autismedag",
+            "d": "Neurodiversitetsdagen"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvad er en af de største udfordringer, som neurodivergente personer ofte oplever i samfundet?",
+        "answers": {
+            "a": "Manglende adgang til information",
+            "b": "Stigmatisering og misforståelser om deres evner",
+            "c": "For mange ressourcer og støtteinitiativer",
+            "d": "Overaccept af deres forskelligheder"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 2000,
+        "question": "Hvordan kan skoler bedst støtte neurodivergente elever?",
+        "answers": {
+            "a": "Ved at anvende en ensartet undervisningsmetode for alle",
+            "b": "Ved at give fleksible læringsmuligheder og individuel støtte",
+            "c": "Ved at udelukke dem fra fælles undervisning",
+            "d": "Ved at tvinge dem til at tilpasse sig neurotypiske standarder"
+        },
+        "correct_answer": "b"
+    },
+    {
         "moneysum": 3000,
         "question": "Hvilken amerikansk lov er kendt for at fremme rettighederne for neurodivergente individer?",
         "answers": {
@@ -163,6 +526,94 @@
             "d": "Bipolar lidelse"
         },
         "correct_answer": "d"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilket af følgende er en vigtig del af en neuroinkluderende arbejdsplads?",
+        "answers": {
+            "a": "At kræve, at alle medarbejdere arbejder på samme måde",
+            "b": "At tilbyde fleksible arbejdsforhold og tilpasninger",
+            "c": "At undgå at ansætte neurodivergente personer",
+            "d": "At reducere kommunikation med neurodivergente medarbejdere"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvordan adskiller neurodiversitet sig fra en medicinsk model for neurologiske forskelle?",
+        "answers": {
+            "a": "Neurodiversitet ser forskelle som en naturlig variation, ikke en lidelse",
+            "b": "Neurodiversitet fokuserer udelukkende på behandling og kurering",
+            "c": "Den medicinske model ser alle neurologiske forskelle som positive",
+            "d": "Neurodiversitet ignorerer forskelle i hjernefunktioner"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilken af følgende grupper kan drage fordel af neuroinkluderende tiltag?",
+        "answers": {
+            "a": "Kun personer med autisme",
+            "b": "Kun personer med ADHD",
+            "c": "Alle, da neuroinkluderende tiltag ofte forbedrer arbejds- og læringsmiljøer for alle",
+            "d": "Kun neurotypiske personer"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilket af følgende er et eksempel på en praksis, der støtter neurodivergente studerende?",
+        "answers": {
+            "a": "At kræve, at alle studerende tager noter i hånden",
+            "b": "At tilbyde alternative læringsmetoder som audiobooks og visuelle hjælpemidler",
+            "c": "At fjerne adgang til støtteressourcer",
+            "d": "At forvente, at neurodivergente studerende arbejder uden tilpasninger"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilken af følgende strategier kan hjælpe neurodivergente personer i sociale situationer?",
+        "answers": {
+            "a": "At tvinge dem til at tilpasse sig neurotypiske normer uden støtte",
+            "b": "At tilbyde klare kommunikationsstrategier og forudsigelige rutiner",
+            "c": "At undgå al social interaktion",
+            "d": "At ignorere deres individuelle behov"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvilket af følgende udsagn stemmer overens med neurodiversitetsperspektivet?",
+        "answers": {
+            "a": "Neurodivergente personer skal behandles, så de bliver neurotypiske",
+            "b": "Neurodiversitet er en naturlig og værdifuld del af menneskelig variation",
+            "c": "Kun personer med autisme er neurodivergente",
+            "d": "Neurodiversitet er en sjælden medicinsk tilstand"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvad er en af de største barrierer for neurodivergente personer i arbejdslivet?",
+        "answers": {
+            "a": "Mangel på kompetencer",
+            "b": "Forudindtagede holdninger og manglende tilpasning på arbejdspladsen",
+            "c": "Manglende interesse i at arbejde",
+            "d": "At neurodivergente ikke kan lære nye færdigheder"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 3000,
+        "question": "Hvordan kan samfundet forbedre inklusionen af neurodivergente personer?",
+        "answers": {
+            "a": "Ved at tilbyde fleksible lærings- og arbejdsmiljøer",
+            "b": "Ved at forvente, at neurodivergente tilpasser sig uden støtte",
+            "c": "Ved at begrænse neurodivergentes muligheder",
+            "d": "Ved at undgå at tale om neurodiversitet"
+        },
+        "correct_answer": "a"
     },
     {
         "moneysum": 4000,
@@ -220,6 +671,94 @@
         "correct_answer": "d"
     },
     {
+        "moneysum": 4000,
+        "question": "Hvilket af følgende beskriver bedst en styrke, som mange neurodivergente personer har?",
+        "answers": {
+            "a": "Enestående hukommelse eller detaljeret tænkning",
+            "b": "Manglende evne til at lære nye ting",
+            "c": "Altid at kunne multitaske uden problemer",
+            "d": "En stærk modvilje mod at arbejde i grupper"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilken type støtte kan være gavnlig for en person med ADHD i en arbejdssituation?",
+        "answers": {
+            "a": "En stiv og uforanderlig arbejdsrutine",
+            "b": "Hyppige pauser og fleksible opgavestrukturer",
+            "c": "At fjerne alle deadlines",
+            "d": "At ignorere personens behov for struktur"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilket begreb beskriver en person, der har en hjernefunktion, der adskiller sig fra det neurotypiske?",
+        "answers": {
+            "a": "Neurodivergent",
+            "b": "Neurostandard",
+            "c": "Neurocentral",
+            "d": "Neurokonform"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvad er en af de mest almindelige udfordringer, som personer med autisme oplever i sociale situationer?",
+        "answers": {
+            "a": "Ekstrem fysisk træthed",
+            "b": "Svært ved at forstå sociale signaler og normer",
+            "c": "Manglende evne til at lære nye sprog",
+            "d": "Reduceret hørelse"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilket erhverv kan ofte drage fordel af de analytiske evner, som mange neurodivergente personer har?",
+        "answers": {
+            "a": "Dataanalyse og IT",
+            "b": "Langdistanceløb",
+            "c": "Professionel dans",
+            "d": "Modeskrædderi"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilket af følgende kan være en fordel ved at ansætte neurodivergente personer?",
+        "answers": {
+            "a": "Øget innovation og forskellige perspektiver i problemløsning",
+            "b": "Mindre behov for træning af medarbejdere",
+            "c": "En mere ensartet arbejdsstyrke",
+            "d": "Reduceret behov for tilpasning på arbejdspladsen"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilket af følgende kan være en effektiv strategi for at støtte neurodivergente elever i skolen?",
+        "answers": {
+            "a": "At forvente, at de tilpasser sig uden hjælp",
+            "b": "At tilbyde individualiseret undervisning og sensoriske pauser",
+            "c": "At fjerne dem fra klassen, når de har svært ved at følge med",
+            "d": "At ignorere deres unikke læringsstile"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 4000,
+        "question": "Hvilken tilgang til neurodiversitet fokuserer på at anerkende og værdsætte forskelle frem for at forsøge at normalisere dem?",
+        "answers": {
+            "a": "Neuroinklusion",
+            "b": "Medicinsk model",
+            "c": "Deficit-tilgang",
+            "d": "Eksklusionsmodellen"
+        },
+        "correct_answer": "a"
+    },
+    {
         "moneysum": 5000,
         "question": "Hvilket symptom er typisk for både autisme og ADHD?",
         "answers": {
@@ -271,6 +810,94 @@
             "b": "Kosttilskud",
             "c": "Kirurgi",
             "d": "Medicinering"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilken type tænkning er ofte forbundet med autisme?",
+        "answers": {
+            "a": "Divergent tænkning",
+            "b": "Sort-hvid tænkning",
+            "c": "Følelsesmæssig tænkning",
+            "d": "Tilfældig tænkning"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket af følgende er en almindelig udfordring for voksne med udiagnosticeret ADHD?",
+        "answers": {
+            "a": "Problemer med tidsstyring og organisering",
+            "b": "Mangel på kreativitet",
+            "c": "Nedsat intelligens",
+            "d": "Manglende evne til at føle empati"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket af følgende beskriver bedst, hvordan neurodivergente personer ofte oplever sociale interaktioner?",
+        "answers": {
+            "a": "Ubetinget lethed i alle sociale situationer",
+            "b": "Ingen interesse i sociale relationer",
+            "c": "Sværere ved at aflæse sociale signaler",
+            "d": "Overdreven afhængighed af sociale interaktioner"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilken af følgende strategier kan hjælpe neurodivergente personer med at håndtere sensorisk overstimulering?",
+        "answers": {
+            "a": "Eksponeringsterapi uden grænser",
+            "b": "At ignorere deres sensoriske behov",
+            "c": "Brug af støjdæmpende hovedtelefoner eller beroligende omgivelser",
+            "d": "At undgå alle sociale interaktioner"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilken faktor spiller ofte en rolle i, hvorfor kvinder med ADHD diagnosticeres senere end mænd?",
+        "answers": {
+            "a": "Kvinder har færre symptomer end mænd",
+            "b": "ADHD viser sig ofte anderledes hos kvinder, hvilket fører til fejldiagnosticering",
+            "c": "Mænd søger oftere lægehjælp end kvinder",
+            "d": "Kvinder har højere intelligens end mænd, hvilket maskerer symptomerne"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket af følgende er en mulig positiv egenskab ved at have ADHD?",
+        "answers": {
+            "a": "Øget evne til at fokusere på flere opgaver samtidigt",
+            "b": "Højere IQ end neurotypiske personer",
+            "c": "Kreativ problemløsning og spontanitet",
+            "d": "Ingen fordele, kun ulemper"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvilket af følgende beskriver bedst en fordel ved hyperfokus, som mange med ADHD oplever?",
+        "answers": {
+            "a": "Evnen til at fordybe sig i en opgave i lange perioder med høj produktivitet",
+            "b": "Evnen til hurtigt at skifte opmærksomhed mellem opgaver",
+            "c": "Øget behov for social interaktion",
+            "d": "Mangel på motivation for nye projekter"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 5000,
+        "question": "Hvad er en udbredt misforståelse om autisme?",
+        "answers": {
+            "a": "At alle autistiske personer mangler empati",
+            "b": "At autisme kun findes hos børn",
+            "c": "At autisme altid er forbundet med intellektuelle handicap",
+            "d": "Alle ovenstående"
         },
         "correct_answer": "d"
     },
@@ -330,6 +957,94 @@
         "correct_answer": "c"
     },
     {
+        "moneysum": 8000,
+        "question": "Hvilket af følgende er en udbredt misforståelse om ADHD?",
+        "answers": {
+            "a": "At det kun påvirker børn",
+            "b": "At det skyldes dårlig opdragelse",
+            "c": "At personer med ADHD altid er hyperaktive",
+            "d": "Alle ovenstående"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilket begreb bruges til at beskrive en person, der ikke betragtes som neurodivergent?",
+        "answers": {
+            "a": "Neurotypisk",
+            "b": "Neurodivergent",
+            "c": "Neuroplastisk",
+            "d": "Neurologisk"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilken faktor kan gøre det sværere at diagnosticere autisme hos kvinder?",
+        "answers": {
+            "a": "Kvinder viser ofte færre symptomer end mænd",
+            "b": "Kvinder er bedre til at maskere deres symptomer",
+            "c": "Autisme findes ikke hos kvinder",
+            "d": "Kvinder har generelt ingen kommunikationsvanskeligheder"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilket af følgende kan være en udfordring for personer med autisme i sociale sammenhænge?",
+        "answers": {
+            "a": "At forstå nonverbale signaler",
+            "b": "At have en høj IQ",
+            "c": "At deltage i fysiske aktiviteter",
+            "d": "At have stærke interesser"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvordan adskiller hyperfokus sig fra almindelig koncentration?",
+        "answers": {
+            "a": "Hyperfokus er ukontrollerbar og intens koncentration på én ting",
+            "b": "Hyperfokus betyder, at man aldrig kan koncentrere sig",
+            "c": "Hyperfokus gør det nemmere at multitaske",
+            "d": "Hyperfokus gør det lettere at skifte mellem opgaver"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilken af følgende strategier kan hjælpe en person med ADHD med at organisere deres dag?",
+        "answers": {
+            "a": "Brug af to-do-lister og påmindelser",
+            "b": "At undgå planlægning",
+            "c": "At arbejde uden pauser hele dagen",
+            "d": "At stole udelukkende på hukommelsen"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilket af følgende er en sensorisk udfordring, som ofte ses hos personer med autisme?",
+        "answers": {
+            "a": "Overfølsomhed over for lyd og lys",
+            "b": "Manglende evne til at bevæge sig",
+            "c": "Nedsat kognitiv funktion",
+            "d": "Forhøjet blodtryk"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 8000,
+        "question": "Hvilket udsagn beskriver bedst neurodiversitetsbevægelsens syn på neurologiske forskelle?",
+        "answers": {
+            "a": "Neurologiske forskelle er defekter, der skal rettes",
+            "b": "Neurologiske forskelle er en naturlig del af menneskelig variation",
+            "c": "Neurodivergente personer skal isoleres fra samfundet",
+            "d": "Neurodivergente personer bør undgå behandling"
+        },
+        "correct_answer": "b"
+    },
+    {
         "moneysum": 12000,
         "question": "Hvad er et fælles træk ved hyperfokus i både autisme og ADHD?",
         "answers": {
@@ -383,6 +1098,94 @@
             "d": "Det påvirker både børn og voksne"
         },
         "correct_answer": "a"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilket område i hjernen er ofte forbundet med eksekutive funktioner, som kan være påvirket hos personer med ADHD?",
+        "answers": {
+            "a": "Amygdala",
+            "b": "Hippocampus",
+            "c": "Prefrontal cortex",
+            "d": "Cerebellum"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilket af følgende er en almindelig udfordring for personer med autisme i sociale sammenhænge?",
+        "answers": {
+            "a": "Overdreven tillid til fremmede",
+            "b": "Manglende interesse for sprog",
+            "c": "Sværere ved at aflæse kropssprog og mimik",
+            "d": "Mangel på intelligens"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilken af følgende tilstande falder typisk under neurodiversitetsbegrebet?",
+        "answers": {
+            "a": "ADHD",
+            "b": "Depression",
+            "c": "Diabetes",
+            "d": "Lungebetændelse"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilken metode bruges ofte til at vurdere ADHD hos voksne?",
+        "answers": {
+            "a": "IQ-test",
+            "b": "Blodprøve",
+            "c": "Selvrapporteringsskemaer og kliniske interviews",
+            "d": "Røntgenbillede af hjernen"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvordan adskiller autisme sig fra ADHD?",
+        "answers": {
+            "a": "Autisme involverer typisk gentagne adfærdsmønstre og sensoriske forskelle",
+            "b": "ADHD gør det umuligt at lære nye ting",
+            "c": "Autisme påvirker kun børn",
+            "d": "ADHD og autisme er identiske diagnoser"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvad er en almindelig strategi for at hjælpe børn med autisme med at navigere i sociale situationer?",
+        "answers": {
+            "a": "Sociale historier og rollespil",
+            "b": "Total isolation fra andre",
+            "c": "Straf for at undgå øjenkontakt",
+            "d": "Undgå kommunikationstræning"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvad menes med 'masking' hos personer med autisme?",
+        "answers": {
+            "a": "At skjule eller undertrykke autistiske træk for at passe ind",
+            "b": "At have svært ved at forstå maskerede ansigtsudtryk",
+            "c": "At have en overfølsomhed over for stærke lys",
+            "d": "At undgå sociale interaktioner helt"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 12000,
+        "question": "Hvilket udsagn beskriver bedst forholdet mellem neurodiversitet og intelligens?",
+        "answers": {
+            "a": "Neurodiversitet er direkte forbundet med lav intelligens",
+            "b": "Neurodiversitet dækker en bred vifte af kognitive evner",
+            "c": "Kun personer med høj intelligens kan være neurodivergente",
+            "d": "Neurodiversitet betyder, at en person ikke kan lære nye færdigheder"
+        },
+        "correct_answer": "b"
     },
     {
         "moneysum": 20000,
@@ -440,6 +1243,94 @@
         "correct_answer": "b"
     },
     {
+        "moneysum": 20000,
+        "question": "Hvilken kendt forsker er ofte krediteret for at have populariseret begrebet 'neurodiversitet'?",
+        "answers": {
+            "a": "Hans Asperger",
+            "b": "Judy Singer",
+            "c": "Sigmund Freud",
+            "d": "Temple Grandin"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvad er en almindelig strategi til at støtte personer med autisme i arbejdsmiljøet?",
+        "answers": {
+            "a": "At undgå at give dem komplekse opgaver",
+            "b": "At tilbyde fleksible arbejdsforhold og klare instruktioner",
+            "c": "At reducere deres arbejdstid til under 10 timer om ugen",
+            "d": "At forvente, at de tilpasser sig uden særlige hensyn"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilket af følgende kan være en fordel ved ADHD i visse situationer?",
+        "answers": {
+            "a": "Manglende evne til at fokusere",
+            "b": "Forbedret evne til multitasking og kreativ tænkning",
+            "c": "Lavere energiniveau end gennemsnittet",
+            "d": "Bedre evne til at følge rigide strukturer"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilket af følgende er en almindelig sensorisk udfordring for personer med autisme?",
+        "answers": {
+            "a": "Overfølsomhed over for visse lyde eller teksturer",
+            "b": "Manglende evne til at høre høje lyde",
+            "c": "Forbedret smagssans",
+            "d": "Nedsat evne til at se bevægelige objekter"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvad er en af de primære årsager til, at piger ofte bliver underdiagnosticeret med ADHD?",
+        "answers": {
+            "a": "Piger har ikke ADHD",
+            "b": "Piger viser ofte mindre hyperaktive symptomer",
+            "c": "Piger er biologisk immune over for ADHD",
+            "d": "Læger tester ikke piger for ADHD"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilket af følgende kan være en positiv egenskab forbundet med autisme?",
+        "answers": {
+            "a": "Øget evne til detaljeret tænkning og systematisering",
+            "b": "Manglende evne til at lære nye færdigheder",
+            "c": "Lavere intelligens end gennemsnittet",
+            "d": "Mangel på evne til at føle empati"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvad er formålet med neurodiversitetsbevægelsen?",
+        "answers": {
+            "a": "At eliminere alle neurologiske forskelle",
+            "b": "At acceptere og værdsætte forskelle i kognitiv funktion",
+            "c": "At sikre, at kun medicinske behandlinger bruges til neurodivergente",
+            "d": "At reducere rettighederne for neurodivergente personer"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 20000,
+        "question": "Hvilken af følgende faktorer kan gøre det sværere for personer med ADHD at fungere i traditionelle arbejdsmiljøer?",
+        "answers": {
+            "a": "Rigid struktur og lange stillesiddende opgaver",
+            "b": "Manglende motivation til at arbejde",
+            "c": "Højere IQ end gennemsnittet",
+            "d": "Bedre til at håndtere stress end neurotypiske personer"
+        },
+        "correct_answer": "a"
+    },
+    {
         "moneysum": 32000,
         "question": "Hvilket af følgende symptomer er typisk for både autisme og ADHD?",
         "answers": {
@@ -495,6 +1386,94 @@
         "correct_answer": "c"
     },
     {
+        "moneysum": 32000,
+        "question": "Hvilken del af hjernen er ofte forbundet med opmærksomhedsregulering i ADHD?",
+        "answers": {
+            "a": "Amygdala",
+            "b": "Prefrontal cortex",
+            "c": "Hippocampus",
+            "d": "Cerebellum"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilket af følgende beskriver en udfordring, som både autistiske personer og personer med ADHD kan opleve?",
+        "answers": {
+            "a": "Ekstrem tilpasningsevne i sociale situationer",
+            "b": "Vanskeligheder med eksekutive funktioner",
+            "c": "Overdreven evne til at følge komplekse regler",
+            "d": "Forbedret korttidshukommelse"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilken behandlingsform er ofte brugt til at hjælpe personer med ADHD med at organisere deres hverdag?",
+        "answers": {
+            "a": "Fysioterapi",
+            "b": "Ernæringsterapi",
+            "c": "Kognitiv adfærdsterapi",
+            "d": "Hypnose"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilket af følgende er en almindelig strategi for at hjælpe autistiske personer i sociale situationer?",
+        "answers": {
+            "a": "Tvinge dem til at deltage i store sociale arrangementer",
+            "b": "Tilbyde visuelle skemaer og sociale historier",
+            "c": "Undgå al social interaktion",
+            "d": "Bruge høje lyde til at træne deres opmærksomhed"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvordan kan en person med ADHD ofte opleve tid?",
+        "answers": {
+            "a": "Som en præcis og struktureret proces",
+            "b": "Som uforudsigelig og svær at vurdere",
+            "c": "Som langsommere end for neurotypiske personer",
+            "d": "Som noget, der ikke påvirker deres daglige liv"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilket af følgende beskriver ofte en styrke ved autisme?",
+        "answers": {
+            "a": "Evnen til at skifte fokus hurtigt mellem opgaver",
+            "b": "Stærk detaljeorientering og specialinteresser",
+            "c": "Høj tolerance for sensoriske stimuli",
+            "d": "Forbedret social tilpasning"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvilken af følgende faktorer kan gøre det sværere for piger at få en ADHD-diagnose?",
+        "answers": {
+            "a": "De udviser ofte mere indadvendte symptomer end drenge",
+            "b": "Der findes ingen tests til at diagnosticere ADHD hos piger",
+            "c": "Piger har generelt færre problemer med opmærksomhed",
+            "d": "ADHD påvirker kun drenge"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 32000,
+        "question": "Hvad er en af de største fordele ved at bruge medicin til ADHD-behandling?",
+        "answers": {
+            "a": "Det helbreder ADHD permanent",
+            "b": "Det forbedrer ofte evnen til at fokusere og regulere impulser",
+            "c": "Det øger fysisk udholdenhed",
+            "d": "Det forbedrer hukommelsen hos alle personer"
+        },
+        "correct_answer": "b"
+    },
+    {
         "moneysum": 50000,
         "question": "Hvilket af følgende er ikke en anerkendt behandling for ADHD?",
         "answers": {
@@ -546,6 +1525,94 @@
             "b": "Occipitallappen",
             "c": "Parietallappen",
             "d": "Temporallappen"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilket af følgende er en almindelig misforståelse om autisme?",
+        "answers": {
+            "a": "Alle autistiske personer har særlige talenter",
+            "b": "Autisme er en spektrumtilstand",
+            "c": "Autisme kan diagnosticeres i alle aldre",
+            "d": "Autisme er genetisk betinget"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilken faktor kan gøre det sværere at diagnosticere ADHD hos voksne?",
+        "answers": {
+            "a": "Voksne med ADHD udviser aldrig symptomer",
+            "b": "De kan have udviklet mestringsstrategier",
+            "c": "ADHD forsvinder altid efter barndommen",
+            "d": "Voksne kan ikke få ADHD-medicin"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvad er et typisk symptom på eksekutive funktionsudfordringer i ADHD?",
+        "answers": {
+            "a": "Perfekt tidsstyring",
+            "b": "Sværighed ved at organisere opgaver",
+            "c": "Overdreven strukturering af tid",
+            "d": "Manglende evne til at føle følelser"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilken metode bruges ofte til at forbedre søvnkvaliteten hos personer med ADHD?",
+        "answers": {
+            "a": "Struktureret aftenrutine",
+            "b": "Øget koffeinindtag før sengetid",
+            "c": "At arbejde sent om aftenen",
+            "d": "At undgå alle faste rutiner"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilket begreb beskriver en stærk og intens interesse for et specifikt emne, som ofte ses hos autistiske personer?",
+        "answers": {
+            "a": "Hyperaktivitet",
+            "b": "Specialinteresse",
+            "c": "Impulsivitet",
+            "d": "Sensorisk overload"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvad kan hjælpe en person med ADHD med at huske daglige opgaver?",
+        "answers": {
+            "a": "Brug af visuelle påmindelser og to-do-lister",
+            "b": "At undgå planlægning",
+            "c": "Kun at stole på hukommelsen",
+            "d": "At multitaske så meget som muligt"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilken faktor kan gøre det sværere for piger at få en autisme-diagnose?",
+        "answers": {
+            "a": "De har generelt mere eksternaliserende adfærd",
+            "b": "De er ofte bedre til at maskere deres symptomer",
+            "c": "Autisme påvirker kun drenge",
+            "d": "Der findes ingen test til piger"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 50000,
+        "question": "Hvilket af følgende beskriver en mulig fordel ved ADHD?",
+        "answers": {
+            "a": "Evnen til hyperfokus på interesser",
+            "b": "Perfekt tidsstyring",
+            "c": "Reduceret kreativitet",
+            "d": "Mindre energi end gennemsnittet"
         },
         "correct_answer": "a"
     },
@@ -605,6 +1672,61 @@
         "correct_answer": "b"
     },
     {
+        "moneysum": 75000,
+        "question": "Hvilket af følgende er et typisk eksempel på sansefølsomhed hos autistiske personer?",
+        "answers": {
+            "a": "Manglende evne til at høre lyde",
+            "b": "Overreaktion på høje lyde eller stærkt lys",
+            "c": "Forbedret nattevision",
+            "d": "Nedsat evne til at føle smerte"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvilken af følgende strategier kan hjælpe personer med ADHD med at forbedre deres koncentration?",
+        "answers": {
+            "a": "At arbejde i et kaotisk miljø",
+            "b": "At bruge en struktureret dagsplan",
+            "c": "At undgå alle former for rutiner",
+            "d": "At multitaske så meget som muligt"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvilken faktor kan være en fordel ved at have ADHD?",
+        "answers": {
+            "a": "Øget evne til at fokusere intenst på interesser",
+            "b": "Reduceret kreativitet",
+            "c": "Bedre evne til at sidde stille i lange perioder",
+            "d": "Mindre impulsivitet end gennemsnittet"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvilken af følgende er en almindelig coping-strategi for autistiske personer i sociale situationer?",
+        "answers": {
+            "a": "Maskering af deres naturlige adfærd",
+            "b": "At tale uafbrudt uden at lytte",
+            "c": "At undgå enhver form for kommunikation",
+            "d": "At ændre deres personlighed fuldstændigt"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 75000,
+        "question": "Hvilket af følgende beskriver en potentiel udfordring for autistiske personer i et arbejdsmiljø?",
+        "answers": {
+            "a": "Uklare instruktioner og uforudsigelighed",
+            "b": "For meget struktur og faste rammer",
+            "c": "For lidt social interaktion",
+            "d": "Manglende adgang til teknologi"
+        },
+        "correct_answer": "a"
+    },
+    {
         "moneysum": 125000,
         "question": "Hvilket af følgende er ikke et symptom på autisme?",
         "answers": {
@@ -658,6 +1780,61 @@
             "d": "TOVA (Test of Variables of Attention)"
         },
         "correct_answer": "d"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilket begreb bruges til at beskrive den dybe specialiserede viden, som mange autistiske personer udvikler?",
+        "answers": {
+            "a": "Hyperfokus",
+            "b": "Fotografisk hukommelse",
+            "c": "Savant-syndrom",
+            "d": "Kognitiv fleksibilitet"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilken af følgende faktorer menes at spille en væsentlig rolle i udviklingen af ADHD?",
+        "answers": {
+            "a": "For meget sukker i kosten",
+            "b": "Genetiske faktorer",
+            "c": "Dårlig opdragelse",
+            "d": "Vaccinationer"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvad er en udfordring, som personer med ADHD ofte oplever i deres arbejdsliv?",
+        "answers": {
+            "a": "For lav energi og træthed",
+            "b": "Vanskeligheder med tidsstyring og planlægning",
+            "c": "Manglende evne til at kommunikere",
+            "d": "For meget fokus på detaljer"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilken type støtte kan være særligt nyttig for autistiske personer i sociale sammenhænge?",
+        "answers": {
+            "a": "Sociale historier og scripts",
+            "b": "Intensiv fysisk træning",
+            "c": "Undgåelse af alle sociale situationer",
+            "d": "Brug af stærke sanseindtryk til at forbedre kommunikation"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 125000,
+        "question": "Hvilket af følgende er et kendetegn ved eksekutive funktioner, som ofte er udfordret hos personer med ADHD?",
+        "answers": {
+            "a": "Evnen til at træffe hurtige beslutninger",
+            "b": "Planlægning og organisering",
+            "c": "Forbedret arbejdshukommelse",
+            "d": "Øget evne til at multitaske"
+        },
+        "correct_answer": "b"
     },
     {
         "moneysum": 250000,
@@ -715,6 +1892,61 @@
         "correct_answer": "c"
     },
     {
+        "moneysum": 250000,
+        "question": "Hvilket af følgende er et kerneområde, hvor personer med autisme ofte oplever udfordringer?",
+        "answers": {
+            "a": "Sprogudvikling",
+            "b": "Hørelse",
+            "c": "Synsskarphed",
+            "d": "Muskelstyrke"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvilken neurotransmitter menes at spille en central rolle i ADHD?",
+        "answers": {
+            "a": "Dopamin",
+            "b": "Serotonin",
+            "c": "Adrenalin",
+            "d": "Oxytocin"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvilken type terapi er ofte brugt til at hjælpe autistiske børn med at forbedre deres sociale færdigheder?",
+        "answers": {
+            "a": "Kognitiv adfærdsterapi",
+            "b": "Hydroterapi",
+            "c": "Kiropraktisk behandling",
+            "d": "Hypnoterapi"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvilket redskab bruges ofte i skoler for at hjælpe børn med ADHD med at holde fokus?",
+        "answers": {
+            "a": "Fidget toys",
+            "b": "Briller med blå lysfilter",
+            "c": "Specielle sko",
+            "d": "Vægtveste"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 250000,
+        "question": "Hvilken af følgende er en potentiel fordel ved ADHD?",
+        "answers": {
+            "a": "Forbedret koncentration på uinteressante opgaver",
+            "b": "Øget kreativitet og problemløsningsevner",
+            "c": "Mindre energiforbrug i hjernen",
+            "d": "Lavere risiko for impulsiv adfærd"
+        },
+        "correct_answer": "b"
+    },
+    {
         "moneysum": 500000,
         "question": "Hvilket begreb beskriver udfordringen med sensorisk overbelastning hos autistiske individer?",
         "answers": {
@@ -770,6 +2002,61 @@
         "correct_answer": "c"
     },
     {
+        "moneysum": 500000,
+        "question": "Hvilken af følgende faktorer menes at bidrage til udviklingen af ADHD?",
+        "answers": {
+            "a": "Overforbrug af sukker",
+            "b": "Genetiske faktorer",
+            "c": "For meget skærmtid",
+            "d": "Dårlig opdragelse"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilken type læringsmiljø er ofte mest fordelagtigt for elever med ADHD?",
+        "answers": {
+            "a": "Struktureret, men fleksibelt",
+            "b": "Strikt og rigidt",
+            "c": "Uden faste regler",
+            "d": "Meget konkurrencepræget"
+        },
+        "correct_answer": "a"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilket område af hjernen er ofte mindre aktivt hos personer med ADHD?",
+        "answers": {
+            "a": "Amygdala",
+            "b": "Hippocampus",
+            "c": "Præfrontale cortex",
+            "d": "Cerebellum"
+        },
+        "correct_answer": "c"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilket kommunikationsværktøj anvendes ofte til nonverbale autistiske personer?",
+        "answers": {
+            "a": "Brugen af tegnsprog",
+            "b": "Pecs (Picture Exchange Communication System)",
+            "c": "Forbedret mundmotorisk træning",
+            "d": "Skærpet auditive færdigheder"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 500000,
+        "question": "Hvilken af følgende er en veldokumenteret fordel ved at omfavne neurodiversitet i samfundet?",
+        "answers": {
+            "a": "Øget kreativitet og innovation",
+            "b": "Færre individuelle tilpasninger",
+            "c": "Mindre behov for specialundervisning",
+            "d": "Reduceret behov for mental sundhedsressourcer"
+        },
+        "correct_answer": "a"
+    },
+    {
         "moneysum": 1000000,
         "question": "Hvilket af følgende er en central komponent i neurodiversitetsbevægelsen?",
         "answers": {
@@ -821,6 +2108,94 @@
             "b": "Temple Grandin",
             "c": "Dan Aykroyd",
             "d": "Anthony Hopkins"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilken teori foreslår, at autisme kan skyldes forskelle i hjernens informationsbehandling?",
+        "answers": {
+            "a": "Eksekutiv dysfunktionsteori",
+            "b": "Ekstrem mandlig hjerne-teori",
+            "c": "Theory of Mind-teorien",
+            "d": "Sensory Integration Theory"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilket erhverv har Temple Grandin bidraget betydeligt til?",
+        "answers": {
+            "a": "Softwareudvikling",
+            "b": "Dyrevelfærd og landbrug",
+            "c": "Psykologi",
+            "d": "Astronomi"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilken af følgende er en anerkendt fordel ved ADHD i visse situationer?",
+        "answers": {
+            "a": "Reduceret evne til at skifte opmærksomhed",
+            "b": "Høj grad af kreativitet og innovation",
+            "c": "Manglende evne til at fokusere",
+            "d": "Nedsat motorisk koordination"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilken neurodivergent tilstand er ofte forbundet med tics?",
+        "answers": {
+            "a": "ADHD",
+            "b": "Tourette syndrom",
+            "c": "Dysleksi",
+            "d": "OCD"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilket gen menes at have en potentiel forbindelse til autisme?",
+        "answers": {
+            "a": "BRCA1",
+            "b": "FOXP2",
+            "c": "HTT",
+            "d": "MECP2"
+        },
+        "correct_answer": "d"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilket koncept bruges til at beskrive den intense interesse, som mange autistiske personer har for specifikke emner?",
+        "answers": {
+            "a": "Hyperaktivitet",
+            "b": "Restriktive interesser",
+            "c": "Empatisk resonans",
+            "d": "Eksekutiv funktion"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvilken kendt opfinder menes at have haft autistiske træk?",
+        "answers": {
+            "a": "Nikola Tesla",
+            "b": "Isaac Newton",
+            "c": "Albert Einstein",
+            "d": "Thomas Edison"
+        },
+        "correct_answer": "b"
+    },
+    {
+        "moneysum": 1000000,
+        "question": "Hvad er en almindelig sensorisk udfordring for personer med autisme?",
+        "answers": {
+            "a": "Manglende evne til at forstå sprog",
+            "b": "Overfølsomhed over for lyde og lys",
+            "c": "Manglende følelse af balance",
+            "d": "Nedsat hukommelse"
         },
         "correct_answer": "b"
     }

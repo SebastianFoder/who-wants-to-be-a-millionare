@@ -10,6 +10,7 @@ import QuestionBox from '@/app/controls/questionBox';
 import GameControls from '@/app/controls/gameControls';
 import PrizeDisplay from '@/app/components/prizeDisplay';
 import AnswersBox from '@/app/controls/answersBox';
+
 export default function Home() {
     const [gameState, setGameState] = useState<GameState | null>(null);
     const [gameManager, setGameManager] = useState<GameManager | null>(null);
@@ -58,53 +59,72 @@ export default function Home() {
     if (!gameState) return <div>Loading...</div>;
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen p-4 container mx-auto">
-            <h1 className="text-4xl font-bold mb-8">Hvem vil være millionær?</h1>
-            <div className="flex flex-row gap-4">
-                <div className="w-1/4 flex flex-col gap-1">
-                    <Lifelines
-                        gameState={gameState}
-                        handleLifeline={handleLifeline}/>
-                    <LifelineResults
-                        gameState={gameState}/>
-                </div>
-                <div className="w-2/4 grid grid-cols-1 gap-1">
-                    {/* Question */}
-                    {gameState.currentQuestion && (
-                    <div className="mb-8 flex flex-col gap-6">
-                        <QuestionBox
-                            gameState={gameState}/>
-                        <AnswersBox
+        <div className="flex flex-col items-center justify-start min-h-screen xl:h-screen p-4 container mx-auto">
+            <h1 className="text-2xl xl:text-4xl font-bold mb-4 xl:mb-8 text-white text-center">
+                Hvem vil være millionær?
+            </h1>
+
+            {/* Main Game Layout */}
+            <div className="w-full flex flex-col xl:flex-row gap-4">
+                {/* Left Column - Lifelines (moves to top below xl) */}
+                <div className="w-full xl:w-1/4 order-1 xl:order-1">
+                    <div className="flex justify-center xl:flex-col gap-4">
+                        <Lifelines
                             gameState={gameState}
-                            selectedAnswer={selectedAnswer}
-                            setSelectedAnswer={setSelectedAnswer}/>
+                            handleLifeline={handleLifeline}
+                        />
+                        <div className="hidden xl:block">
+                            <LifelineResults
+                                gameState={gameState}
+                            />
+                        </div>
                     </div>
+                </div>
+
+                {/* Center Column - Questions and Controls */}
+                <div className="w-full xl:w-2/4 xl:my-auto items-center order-3 xl:order-2">
+                    {gameState.currentQuestion && (
+                        <div className="flex flex-col h-100 gap-6">
+                            <QuestionBox
+                                gameState={gameState}
+                            />
+                            <AnswersBox
+                                gameState={gameState}
+                                selectedAnswer={selectedAnswer}
+                                setSelectedAnswer={setSelectedAnswer}
+                            />
+                        </div>
                     )}
 
-                    
+                    {/* Lifeline Results (shows below question below xl) */}
+                    <div className="xl:hidden mt-4">
+                        <LifelineResults
+                            gameState={gameState}
+                        />
+                    </div>
 
                     <GameControls
                         gameState={gameState}
                         handleQuit={handleQuit}
                         handleNextQuestion={handleNextQuestion}
                         handleAnswer={handleAnswer}
-                        selectedAnswer={selectedAnswer}/>
-
-                    
-                    
+                        selectedAnswer={selectedAnswer}
+                    />
 
                     {/* Game Over State */}
                     {gameState.isGameOver && (
                         <GameOver 
                             gameState={gameState}
-                            handleNewGame={handleNewGame}/>  
+                            handleNewGame={handleNewGame}
+                        />
                     )}
                 </div>
-                <div className="w-1/4 grid grid-cols-1 gap-1">
-                    {/* Current Prize */}
 
+                {/* Right Column - Prize Display (moves to bottom below xl) */}
+                <div className="w-full xl:w-1/4 order-2 xl:order-3">
                     <PrizeDisplay 
-                        gameState={gameState} />
+                        gameState={gameState}
+                    />
                 </div>
             </div>
         </div>

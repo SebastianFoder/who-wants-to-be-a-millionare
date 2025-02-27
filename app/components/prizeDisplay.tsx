@@ -82,7 +82,7 @@ export default function PrizeDisplay({ gameState }: PrizeDisplayProps) {
                 lg:w-[300px]
             ">
                 {sections.map((section, index) => (
-                    <div key={index} className="flex flex-col gap-2">
+                    <div key={index} className="flex flex-col justify-center">
                         {section.map(level => (
                             <PrizeRow key={level} level={level} />
                         ))}

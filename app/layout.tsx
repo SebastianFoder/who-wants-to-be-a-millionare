@@ -60,8 +60,6 @@ export default function RootLayout({
           antialiased 
           min-h-screen
           relative
-          xl:h-screen
-          xl:overflow-hidden
         `}
       >
         {/* Background Image */}

@@ -12,7 +12,6 @@ A Danish version of the classic game show "Who Wants to Be a Millionaire?" built
 - Checkpoint system at levels 5 and 10
 - Responsive design for mobile, tablet, and desktop
 - Progressive Web App (PWA) support
-- Sound effects and animations
 - Danish language interface
 
 ## Tech Stack
@@ -78,17 +77,17 @@ yarn dev
 
 ## Prize Levels
 
-1. 100 kr
-2. 200 kr
-3. 300 kr
-4. 500 kr
-5. 1.000 kr (Checkpoint)
-6. 2.000 kr
-7. 4.000 kr
-8. 8.000 kr
-9. 16.000 kr
-10. 32.000 kr (Checkpoint)
-11. 64.000 kr
+1. 1,000 kr
+2. 2,000 kr
+3. 3,000 kr
+4. 4,000 kr
+5. 5.000 kr (Checkpoint)
+6. 8.000 kr
+7. 12.000 kr
+8. 20.000 kr
+9. 32.000 kr
+10. 50.000 kr (Checkpoint)
+11. 75.000 kr
 12. 125.000 kr
 13. 250.000 kr
 14. 500.000 kr

@@ -34,7 +34,7 @@ A Danish version of the classic game show "Who Wants to Be a Millionaire?" built
 1. Clone the repository:
 
 bash
-git clone https://github.com/yourusername/millionaire-game.git
+git clone [https://github.com/SebastianFoder/who-wants-to-be-a-millionare.git](https://github.com/SebastianFoder/who-wants-to-be-a-millionare.git)
 cd millionaire-game
 
 2. Install dependencies:
